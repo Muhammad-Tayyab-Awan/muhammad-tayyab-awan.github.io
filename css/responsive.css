@@ -11,6 +11,9 @@
   header > a {
     font-size: x-small;
   }
+  main {
+  min-height: calc(100vh - 5rem);
+}
   footer {
     font-size: x-small;
   }

@@ -48,7 +48,7 @@ header > a:first-child:hover {
   border-bottom-left-radius: 0.5rem;
 }
 main {
-  min-height: 100vh;
+  min-height: calc(100vh - 7rem);
 }
 footer {
   display: flex;
