@@ -47,3 +47,35 @@ header > a:first-child:hover {
   border-top-left-radius: 0.5rem;
   border-bottom-left-radius: 0.5rem;
 }
+main {
+  min-height: 100vh;
+}
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.5rem;
+  align-items: center;
+  padding: 0.5rem 0;
+  font-size: smaller;
+}
+#copyright {
+  text-align: center;
+}
+#social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+#social-icons > a {
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.25rem;
+  border-radius: 100%;
+}
+#social-icons img {
+  height: 1rem;
+}
