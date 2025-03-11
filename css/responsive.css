@@ -11,6 +11,12 @@
   header > a {
     font-size: x-small;
   }
+  footer {
+    font-size: x-small;
+  }
+  #social-icons img{
+    height: 0.75rem;
+  }
 }
 @media screen and (max-width: 450px) {
   header {
