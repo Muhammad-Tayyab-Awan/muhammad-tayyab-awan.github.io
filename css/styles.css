@@ -2,6 +2,10 @@
   padding: 0;
   margin: 0;
   font-family: "Poppins";
+  cursor: url("/assets/icons/cursor.svg"), auto;
+}
+a {
+  cursor: url("/assets/icons/cursor-hand-line.svg"), auto;
 }
 body {
   background-color: rgb(13, 9, 19);
