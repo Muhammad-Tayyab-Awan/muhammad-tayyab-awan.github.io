@@ -17,8 +17,9 @@ header {
   height: 2.5rem;
   background-color: rgba(51, 39, 70, 0.808);
   backdrop-filter: blur(2px);
-  position: sticky;
+  position: fixed;
   top: 1rem;
+  left: 30%;
   margin: 0 auto;
   border-radius: 0.5rem;
   border: 1px solid blueviolet;
@@ -52,7 +53,7 @@ header > a:first-child:hover {
   border-bottom-left-radius: 0.5rem;
 }
 main {
-  min-height: calc(100vh - 7rem);
+  min-height: calc(100vh - 4rem);
 }
 footer {
   display: flex;
