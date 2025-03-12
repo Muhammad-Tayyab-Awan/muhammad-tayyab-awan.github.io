@@ -1,28 +1,31 @@
 @media screen and (max-width: 1000px) {
   header {
     width: 70%;
+    left: 15%;
   }
 }
 @media screen and (max-width: 630px) {
   header {
     width: 90%;
     height: 2rem;
+    left: 5%;
   }
   header > a {
     font-size: x-small;
   }
   main {
-  min-height: calc(100vh - 5rem);
-}
+    min-height: calc(100vh - 3rem);
+  }
   footer {
     font-size: x-small;
   }
-  #social-icons img{
+  #social-icons img {
     height: 0.75rem;
   }
 }
 @media screen and (max-width: 450px) {
   header {
     width: 95%;
+    left: 2.5%;
   }
 }
