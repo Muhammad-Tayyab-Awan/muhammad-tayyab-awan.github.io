@@ -54,6 +54,42 @@ header > a:first-child:hover {
 }
 main {
   min-height: calc(100vh - 4rem);
+  width: 100%;
+}
+.hero-section {
+  min-height: calc(100vh - 4rem);
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.my-photo {
+  height: 18.75rem;
+  border-radius: 100%;
+  transition: box-shadow ease-in-out 400ms;
+}
+.my-photo:hover {
+  box-shadow: 0 0 4px 1px wheat;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.name {
+  font-size: 3.5rem;
+  align-self: flex-start;
+  text-shadow: 1px 1px 2px purple, 0 0 10px white, 0 0 0.2em purple;
+}
+.description {
+  font-size: 1.5rem;
+}
+.description:first-of-type {
+  align-self: flex-start;
+}
+.description:last-of-type {
+  align-self: flex-end;
 }
 footer {
   display: flex;
