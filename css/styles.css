@@ -3,6 +3,16 @@
   margin: 0;
   font-family: "Poppins";
   cursor: url("/assets/icons/cursor.svg"), auto;
+  scroll-behavior: smooth;
+}
+*::-webkit-scrollbar {
+  width: 4px;
+  background-color: rgb(13, 9, 19);
+}
+*::-webkit-scrollbar-thumb {
+  background-color: wheat;
+  height: 10px;
+  border-radius: 10px;
 }
 a {
   cursor: url("/assets/icons/cursor-hand-line.svg"), auto;
