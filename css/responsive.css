@@ -1,7 +1,46 @@
+@media screen and (max-width: 1300px) {
+  .my-photo {
+    height: 15rem;
+  }
+  .name {
+    font-size: 3rem;
+  }
+  .description {
+    font-size: 1.25rem;
+  }
+}
 @media screen and (max-width: 1000px) {
   header {
     width: 70%;
     left: 15%;
+  }
+  .my-photo {
+    height: 13rem;
+  }
+  .name {
+    font-size: 2.5rem;
+  }
+  .description {
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 860px) {
+  .my-photo {
+    height: 10rem;
+  }
+  .name {
+    font-size: 2rem;
+  }
+  .description {
+    font-size: 0.75rem;
+  }
+}
+@media screen and (max-width: 680px) {
+  .name {
+    font-size: 1.75rem;
+  }
+  .description {
+    font-size: 0.5rem;
   }
 }
 @media screen and (max-width: 630px) {
@@ -9,6 +48,10 @@
     width: 90%;
     height: 2rem;
     left: 5%;
+  }
+  .hero-section {
+    flex-direction: column;
+    justify-content: center;
   }
   header > a {
     font-size: x-small;
@@ -27,5 +70,10 @@
   header {
     width: 95%;
     left: 2.5%;
+  }
+}
+@media screen and (max-width: 360px) {
+  .name {
+    font-size: 1.5rem;
   }
 }
