@@ -14,6 +14,9 @@
   height: 10px;
   border-radius: 10px;
 }
+*::selection{
+  background-color: rebeccapurple;
+}
 a {
   cursor: url("/assets/icons/cursor-hand-line.svg"), auto;
 }
@@ -105,6 +108,39 @@ main {
 .description:last-of-type {
   align-self: flex-end;
 }
+#about{
+  min-height: calc(100vh - 4rem);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.intro{
+  width: 60%;
+  padding: 2.5rem;
+  margin: auto;
+  text-align: justify;
+  background-color: rgba(255, 255, 255, 0.192);
+  backdrop-filter: blur(10px);
+  border-radius: 0.5rem;
+  text-shadow: 1px 1px 1px rebeccapurple;
+  line-height: 2rem;
+  transition: all ease-in-out 700ms;
+}
+.intro:hover{
+  box-shadow: 0 0 5px 1px white;
+}
+#about a {
+  color: white;
+  font-size: large;
+  text-decoration: none;
+  transition: all ease-in-out 100ms;
+}
+#about a:hover{
+  text-decoration: underline;
+}
+
 footer {
   display: flex;
   flex-direction: column;
