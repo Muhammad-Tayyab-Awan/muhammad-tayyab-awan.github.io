@@ -23,6 +23,7 @@ header {
   position: sticky;
   top: 1rem;
   left: 30%;
+  z-index: 10;
   margin: 0 auto;
   border-radius: 0.5rem;
   border: 1px solid blueviolet;
