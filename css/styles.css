@@ -11,13 +11,16 @@ body {
   background-color: rgb(13, 9, 19);
   position: relative;
   color: wheat;
+  max-width: 1440px;
+  width: 100%;
+  margin: auto;
 }
 header {
   width: 40%;
   height: 2.5rem;
   background-color: rgba(51, 39, 70, 0.808);
   backdrop-filter: blur(2px);
-  position: fixed;
+  position: sticky;
   top: 1rem;
   left: 30%;
   margin: 0 auto;
