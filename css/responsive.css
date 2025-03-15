@@ -63,6 +63,7 @@
     left: 5%;
   }
   .hero-section {
+    min-height: 40vh;
     flex-direction: column;
     justify-content: center;
   }
@@ -74,6 +75,10 @@
   }
   .intro {
     width: 80%;
+    font-size: smaller;
+  }
+  #about a {
+    font-size: small;
   }
   footer {
     font-size: x-small;
@@ -88,9 +93,9 @@
     left: 2.5%;
   }
   .intro {
-    width: 90%;
     padding: 1rem;
-    font-size: smaller;
+    line-height: 1rem;
+    font-size: x-small;
   }
 }
 @media screen and (max-width: 360px) {
