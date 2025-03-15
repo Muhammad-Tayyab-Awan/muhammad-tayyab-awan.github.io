@@ -14,7 +14,7 @@
   height: 10px;
   border-radius: 10px;
 }
-*::selection{
+*::selection {
   background-color: rebeccapurple;
 }
 a {
@@ -108,7 +108,7 @@ main {
 .description:last-of-type {
   align-self: flex-end;
 }
-#about{
+#about {
   min-height: calc(100vh - 4rem);
   width: 100%;
   display: flex;
@@ -116,7 +116,7 @@ main {
   justify-content: center;
   align-items: center;
 }
-.intro{
+.intro {
   width: 60%;
   padding: 2.5rem;
   margin: auto;
@@ -127,8 +127,9 @@ main {
   text-shadow: 1px 1px 1px rebeccapurple;
   line-height: 2rem;
   transition: all ease-in-out 700ms;
+  font-size: medium;
 }
-.intro:hover{
+.intro:hover {
   box-shadow: 0 0 5px 1px white;
 }
 #about a {
@@ -137,7 +138,7 @@ main {
   text-decoration: none;
   transition: all ease-in-out 100ms;
 }
-#about a:hover{
+#about a:hover {
   text-decoration: underline;
 }
 
