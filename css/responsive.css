@@ -23,7 +23,7 @@
   .description {
     font-size: 1rem;
   }
-  .intro{
+  .intro {
     width: 75%;
   }
 }
@@ -31,7 +31,7 @@
   .my-photo {
     height: 10rem;
   }
-  .intro{
+  .intro {
     padding: 1.5rem;
   }
   .name {
@@ -45,7 +45,7 @@
   .name {
     font-size: 1.75rem;
   }
-  .intro{
+  .intro {
     font-size: small;
     line-height: 1.5rem;
   }
@@ -72,7 +72,7 @@
   main {
     min-height: calc(100vh - 3rem);
   }
-  .intro{
+  .intro {
     width: 80%;
   }
   footer {
@@ -82,16 +82,16 @@
     height: 0.75rem;
   }
 }
-@media screen and (max-width: 450px) {
+@media only screen and (max-width: 450px) {
   header {
     width: 95%;
     left: 2.5%;
   }
-}
-.intro{
-  width: 90%;
-  padding: 1rem;
-  font-size: smaller;
+  .intro {
+    width: 90%;
+    padding: 1rem;
+    font-size: smaller;
+  }
 }
 @media screen and (max-width: 360px) {
   .name {
