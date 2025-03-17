@@ -43,6 +43,9 @@
   .timeline {
     width: 70%;
   }
+  .certification {
+    width: 90%;
+  }
 }
 @media screen and (max-width: 680px) {
   .name {
@@ -88,6 +91,12 @@
   }
   #social-icons img {
     height: 0.75rem;
+  }
+  .certificates {
+    flex-direction: column;
+  }
+  .certificate {
+    width: 90%;
   }
 }
 @media only screen and (max-width: 450px) {
