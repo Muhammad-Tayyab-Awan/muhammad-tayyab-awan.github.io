@@ -4,6 +4,7 @@
   font-family: "Poppins";
   cursor: url("/assets/icons/cursor.svg"), auto;
   scroll-behavior: smooth;
+  box-sizing: border-box;
 }
 *::-webkit-scrollbar {
   width: 4px;
@@ -145,7 +146,8 @@ main {
   padding: 1rem;
   margin-bottom: 1rem 0;
 }
-.timeline > h3 {
+.timeline > h3,
+.certification > h3 {
   font-weight: 600;
   margin: 1rem 0;
   text-align: center;
@@ -161,6 +163,47 @@ main {
   text-align: left;
   font-size: medium;
   padding-left: 5rem;
+}
+.certification {
+  width: 75%;
+  margin-bottom: 1rem;
+}
+.certificates {
+  margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.certificate {
+  width: 40%;
+  position: relative;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.certificate > img {
+  border-radius: 10px;
+  width: 100%;
+}
+.share {
+  height: 3rem;
+  width: 3rem;
+  background-color: #0d0913;
+  position: absolute;
+  bottom: 0%;
+  right: 0%;
+  border-right: 1px solid white;
+  border-bottom: 1px solid white;
+  border-bottom-right-radius: 10px;
+  border-top-left-radius: 100%;
+}
+.share > img {
+  margin: 1rem;
+  position: absolute;
+  height: 50%;
 }
 footer {
   display: flex;
