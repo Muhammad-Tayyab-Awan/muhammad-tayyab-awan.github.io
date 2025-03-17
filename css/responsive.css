@@ -40,6 +40,9 @@
   .description {
     font-size: 0.75rem;
   }
+  .timeline {
+    width: 70%;
+  }
 }
 @media screen and (max-width: 680px) {
   .name {
@@ -96,6 +99,15 @@
     padding: 1rem;
     line-height: 1rem;
     font-size: x-small;
+  }
+  .timeline {
+    width: 90%;
+  }
+  .timeline .date {
+    font-size: medium;
+  }
+  .timeline .description {
+    font-size: small;
   }
 }
 @media screen and (max-width: 360px) {
