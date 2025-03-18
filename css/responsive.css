@@ -124,3 +124,8 @@
     font-size: 1.5rem;
   }
 }
+@media screen and (max-width: 400px) {
+  .certificate_share {
+    left: calc(50% - 90% / 2);
+  }
+}
