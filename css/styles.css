@@ -29,6 +29,101 @@ body {
   width: 100%;
   margin: auto;
 }
+.modal {
+  display: none;
+  position: fixed;
+  height: 100vh;
+  width: 100%;
+  z-index: 50;
+  cursor: not-allowed;
+}
+.certificate_share {
+  display: flex;
+  position: fixed;
+  z-index: 50;
+  width: 90%;
+  max-width: 360px;
+  background-color: rgba(102, 51, 153, 0.747);
+  backdrop-filter: blur(4px);
+  height: 200px;
+  top: 20%;
+  left: calc(50% - 360px / 2);
+  border-radius: 10px;
+  padding: 1rem;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.flex {
+  display: flex;
+}
+.certificate_share > img {
+  position: absolute;
+  height: 1.5rem;
+  top: 0.5rem;
+  right: 0.5rem;
+  cursor: url("/assets/icons/cursor-hand-line.svg"), auto;
+}
+.certificate_share > span {
+  font-size: large;
+}
+.certificate_share > .social_icons {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  align-items: center;
+}
+.social_icons > a {
+  height: 2.5rem;
+  padding: 0.5rem;
+  background-color: wheat;
+  border-radius: 100%;
+}
+.social_icons > a > img {
+  height: 100%;
+  cursor: url("/assets/icons/cursor-hand-line.svg"), auto;
+}
+.certificate_share > .copy {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.copy > input {
+  width: 80%;
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-size: small;
+  background-color: wheat;
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+  padding: 0 1rem;
+  text-wrap: wrap;
+  overflow-x: hidden;
+  border: none;
+}
+.copy > input:focus-visible {
+  outline: none;
+}
+.copy > span {
+  width: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2rem;
+  background-color: whitesmoke;
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  cursor: url("/assets/icons/cursor-hand-line.svg"), auto;
+}
+.copy > span > img {
+  cursor: inherit;
+  height: 1.25rem;
+}
 header {
   width: 40%;
   height: 2.5rem;
@@ -204,6 +299,7 @@ main {
   margin: 1rem;
   position: absolute;
   height: 50%;
+  cursor: url("/assets/icons/cursor-hand-line.svg"), auto;
 }
 footer {
   display: flex;
