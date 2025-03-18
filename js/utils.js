@@ -16,3 +16,41 @@ function checkScroll() {
 }
 window.addEventListener("scroll", checkScroll);
 checkScroll();
+// certificate share btn handling
+const shareBtns = document.querySelectorAll("img[alt='share']");
+const openModal = document.querySelector(".modal");
+const closeModal = document.querySelector(".closeModal");
+const copyUrlBtn = document.querySelector(".copy > span");
+shareBtns.forEach((btn) => {
+  btn.addEventListener("click", (e) => {
+    openModal.classList.add("flex");
+    let shareURI = e.target.parentElement.previousElementSibling.src;
+    setShareURI(shareURI);
+  });
+});
+
+closeModal.addEventListener("click", () => {
+  openModal.classList.remove("flex");
+});
+
+copyUrlBtn.addEventListener("click", (e) => {
+  const copyURI = e.target.parentElement.querySelector("input");
+  copyURI.select();
+  navigator.clipboard.writeText(copyURI.value);
+});
+
+function setShareURI(URI) {
+  document.querySelector(
+    "#fb_share_url"
+  ).href = `https://www.facebook.com/sharer.php?u=${URI}`;
+  document.querySelector(
+    "#x_share_url"
+  ).href = `https://x.com/intent/tweet?url=${URI}`;
+  document.querySelector(
+    "#lin_share_url"
+  ).href = `https://www.linkedin.com/sharing/share-offsite/?url=${URI}`;
+  document.querySelector(
+    "#wtp_share_url"
+  ).href = `whatsapp://send/?text=${URI}`;
+  document.querySelector(".copy > input").value = URI;
+}
