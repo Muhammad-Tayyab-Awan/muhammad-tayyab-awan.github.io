@@ -86,6 +86,9 @@
   #about a {
     font-size: small;
   }
+  .intro > span {
+    display: none;
+  }
   footer {
     font-size: x-small;
   }
