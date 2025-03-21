@@ -94,6 +94,8 @@
   }
   .certificates {
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   .certificate {
     width: 90%;
