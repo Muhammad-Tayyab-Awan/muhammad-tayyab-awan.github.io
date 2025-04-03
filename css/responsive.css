@@ -46,6 +46,9 @@
   .certification {
     width: 90%;
   }
+  .skills {
+    width: 75%;
+  }
 }
 @media screen and (max-width: 680px) {
   .name {
@@ -103,6 +106,9 @@
   .certificate {
     width: 90%;
   }
+  .skills {
+    width: 85%;
+  }
 }
 @media only screen and (max-width: 450px) {
   header {
@@ -121,6 +127,10 @@
     font-size: medium;
   }
   .timeline .description {
+    font-size: small;
+  }
+  .skills {
+    width: 95%;
     font-size: small;
   }
 }
