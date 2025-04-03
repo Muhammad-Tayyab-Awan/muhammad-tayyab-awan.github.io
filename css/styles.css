@@ -243,7 +243,8 @@ main {
   margin-bottom: 1rem 0;
 }
 .timeline > h3,
-.certification > h3 {
+.certification > h3,
+.skills > h3 {
   font-weight: 600;
   margin: 1rem 0;
   text-align: center;
@@ -301,6 +302,54 @@ main {
   position: absolute;
   height: 50%;
   cursor: url("/assets/icons/cursor-hand-line.svg"), auto;
+}
+.skills {
+  width: 50%;
+  height: auto;
+  margin-bottom: 1rem;
+}
+.skills .skill {
+  padding: 0 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.skill .bar {
+  width: 75%;
+  height: 0.75rem;
+  border: 1px solid whitesmoke;
+  border-radius: 10px;
+  position: relative;
+}
+.bar > div {
+  height: 100%;
+  background-color: wheat;
+  border-radius: inherit;
+}
+.bar > .html {
+  width: 100%;
+}
+.bar > .css {
+  width: 95%;
+}
+.bar > .js {
+  width: 85%;
+}
+.bar > .react,
+.bar > .node {
+  width: 75%;
+}
+.bar > .next {
+  width: 50%;
+}
+.bar > .express {
+  width: 85%;
+}
+.bar > .mongodb {
+  width: 70%;
+}
+.bar > .python {
+  width: 50%;
 }
 footer {
   display: flex;
