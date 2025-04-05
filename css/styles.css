@@ -356,6 +356,30 @@ main {
 .skill span {
   text-align: end;
 }
+.resume {
+  background: url("/assets/images/resume.jpg") no-repeat center center;
+  background-size: cover;
+  width: 50%;
+  margin: 1rem auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 14rem;
+  border-radius: 0.5rem;
+}
+#about .resume > a {
+  background-color: rgba(102, 51, 153, 0.719);
+  padding: 1.25rem;
+  color: wheat;
+  backdrop-filter: blur(4px);
+  border-radius: inherit;
+  transition: all ease-in-out 500ms;
+  font-size: medium;
+}
+#about .resume > a:hover {
+  text-decoration: none;
+  box-shadow: 0 0 5px 2px black;
+}
 footer {
   display: flex;
   flex-direction: column;
