@@ -52,6 +52,9 @@
   .skills {
     width: 75%;
   }
+  .resume {
+    width: 60%;
+  }
 }
 @media screen and (max-width: 680px) {
   .name {
@@ -66,6 +69,9 @@
   }
   .description {
     font-size: 0.5rem;
+  }
+  .resume {
+    width: 75%;
   }
 }
 @media screen and (max-width: 630px) {
@@ -113,6 +119,9 @@
     width: 85%;
     font-size: small;
   }
+  .resume {
+    width: 80%;
+  }
 }
 @media only screen and (max-width: 450px) {
   header {
@@ -136,6 +145,13 @@
   .skills {
     width: 95%;
     font-size: smaller;
+  }
+  .resume {
+    width: 90%;
+    height: 8rem;
+  }
+  #about .resume > a {
+    padding: 0.75rem;
   }
 }
 @media screen and (max-width: 360px) {
