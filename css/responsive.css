@@ -55,7 +55,8 @@
   .skills {
     width: 75%;
   }
-  .resume {
+  .resume,
+  #support {
     width: 60%;
   }
   .project {
@@ -76,7 +77,8 @@
   .description {
     font-size: 0.5rem;
   }
-  .resume {
+  .resume,
+  #support {
     width: 75%;
   }
   .project {
@@ -128,7 +130,8 @@
     width: 85%;
     font-size: small;
   }
-  .resume {
+  .resume,
+  #support {
     width: 80%;
   }
 }
@@ -155,11 +158,13 @@
     width: 95%;
     font-size: smaller;
   }
-  .resume {
+  .resume,
+  #support {
     width: 90%;
     height: 8rem;
   }
-  #about .resume > a {
+  #about .resume > a,
+  #support > a {
     padding: 0.75rem;
   }
   .project {
