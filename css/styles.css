@@ -315,7 +315,7 @@ main {
   align-items: center;
 }
 .skill .bar {
-  width: 75%;
+  width: 70%;
   height: 0.75rem;
   border: 1px solid whitesmoke;
   border-radius: 10px;
@@ -339,7 +339,8 @@ main {
 .bar > .node {
   width: 75%;
 }
-.bar > .next {
+.bar > .next,
+.bar > .python {
   width: 50%;
 }
 .bar > .express {
@@ -348,8 +349,12 @@ main {
 .bar > .mongodb {
   width: 70%;
 }
-.bar > .python {
-  width: 50%;
+.skill span:first-child {
+  width: 20%;
+  text-align: start;
+}
+.skill span {
+  text-align: end;
 }
 footer {
   display: flex;
