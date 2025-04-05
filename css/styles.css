@@ -244,7 +244,8 @@ main {
 }
 .timeline > h3,
 .certification > h3,
-.skills > h3 {
+.skills > h3,
+#portfolio > h3 {
   font-weight: 600;
   margin: 1rem 0;
   text-align: center;
@@ -379,6 +380,60 @@ main {
 #about .resume > a:hover {
   text-decoration: none;
   box-shadow: 0 0 5px 2px black;
+}
+#portfolio {
+  min-height: calc(100vh - 4rem);
+  width: 100%;
+  margin-bottom: 1rem;
+}
+.projects {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.project {
+  width: 40%;
+  margin: 0 auto;
+  border-radius: 1rem;
+  border: 1px solid wheat;
+  box-shadow: 0 0 5px 1px wheat;
+}
+.project > img {
+  border-radius: 1rem;
+  width: 100%;
+  height: auto;
+}
+.project .title > h3 {
+  padding: 0.5rem;
+  font-weight: 500;
+}
+.project .description > p {
+  padding: 0.75rem;
+  font-size: small;
+  text-align: justify;
+}
+.project .actions {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 1rem;
+  padding-right: 1.25rem;
+  padding-bottom: 0.75rem;
+}
+.actions > a {
+  padding: 0.15rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: wheat;
+}
+.actions > a > img {
+  cursor: url("/assets/icons/cursor-hand-line.svg"), auto;
+  height: 1.25rem;
+  width: 1.25rem;
 }
 footer {
   display: flex;
