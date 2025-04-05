@@ -29,6 +29,9 @@
   .intro {
     width: 75%;
   }
+  .project {
+    width: 60%;
+  }
 }
 @media screen and (max-width: 860px) {
   .my-photo {
@@ -55,6 +58,9 @@
   .resume {
     width: 60%;
   }
+  .project {
+    width: 70%;
+  }
 }
 @media screen and (max-width: 680px) {
   .name {
@@ -72,6 +78,9 @@
   }
   .resume {
     width: 75%;
+  }
+  .project {
+    width: 80%;
   }
 }
 @media screen and (max-width: 630px) {
@@ -152,6 +161,9 @@
   }
   #about .resume > a {
     padding: 0.75rem;
+  }
+  .project {
+    width: 90%;
   }
 }
 @media screen and (max-width: 360px) {
