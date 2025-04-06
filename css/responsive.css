@@ -59,6 +59,9 @@
   #support {
     width: 60%;
   }
+  #contact > form {
+    width: 60%;
+  }
   .project {
     width: 70%;
   }
@@ -79,6 +82,9 @@
   }
   .resume,
   #support {
+    width: 75%;
+  }
+  #contact > form {
     width: 75%;
   }
   .project {
@@ -134,6 +140,9 @@
   #support {
     width: 80%;
   }
+  #contact > form {
+    width: 80%;
+  }
 }
 @media only screen and (max-width: 450px) {
   header {
@@ -162,6 +171,9 @@
   #support {
     width: 90%;
     height: 8rem;
+  }
+  #contact > form {
+    width: 90%;
   }
   #about .resume > a,
   #support > a {
