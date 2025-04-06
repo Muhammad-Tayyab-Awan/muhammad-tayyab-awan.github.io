@@ -245,7 +245,8 @@ main {
 .timeline > h3,
 .certification > h3,
 .skills > h3,
-#portfolio > h3 {
+#portfolio > h3,
+#services > h3 {
   font-weight: 600;
   margin: 1rem 0;
   text-align: center;
@@ -517,6 +518,33 @@ main {
   width: 100%;
   margin: 1rem auto;
   border: none;
+}
+.service {
+  position: relative;
+  width: 70%;
+  margin: 1rem auto;
+  border-radius: 0.5rem;
+}
+.service > img {
+  width: 100%;
+  border-radius: inherit;
+}
+.service > p {
+  font-size: xx-large;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  border-radius: inherit;
+  top: 0%;
+  left: 0%;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(2px);
+}
+.service:hover > p {
+  display: flex;
 }
 footer {
   display: flex;
