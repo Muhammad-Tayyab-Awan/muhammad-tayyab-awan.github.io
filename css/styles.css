@@ -449,6 +449,68 @@ main {
   height: 14rem;
   border-radius: 0.5rem;
 }
+#contact {
+  width: 100%;
+}
+#contact > form {
+  background: url("/assets/images/contactus.png") no-repeat center center;
+  height: auto;
+  width: 50%;
+  margin: 1rem auto;
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 2rem 0;
+}
+#contact > form > input,
+#contact > form > textarea {
+  width: 80%;
+  text-align: center;
+  color: black;
+  font-size: small;
+  background-color: rgba(102, 51, 153, 0.671);
+  backdrop-filter: blur(4px);
+  border: none;
+  border-radius: 0.25rem;
+  padding: 1rem;
+  color: wheat;
+}
+#contact > form > input:focus-visible,
+#contact > form > textarea:focus-visible {
+  outline: none;
+}
+#contact > form > input::placeholder,
+#contact > form > textarea::placeholder {
+  color: whitesmoke;
+}
+#contact textarea {
+  max-width: 80%;
+  min-width: 80%;
+  min-height: 5rem;
+  max-height: 5rem;
+}
+#contact button {
+  background-color: rgba(102, 51, 153, 0.63);
+  border: none;
+  cursor: url("/assets/icons/cursor-hand-line.svg"), auto;
+  padding: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.25rem;
+  color: wheat;
+  backdrop-filter: blur(4px);
+  border-radius: 0.25rem;
+}
+#contact button:focus-visible {
+  outline: none;
+}
+#contact img {
+  height: 0.75rem;
+}
 footer {
   display: flex;
   flex-direction: column;
