@@ -511,6 +511,13 @@ main {
 #contact img {
   height: 0.75rem;
 }
+#contact > iframe {
+  display: block;
+  height: 16rem;
+  width: 100%;
+  margin: 1rem auto;
+  border: none;
+}
 footer {
   display: flex;
   flex-direction: column;
