@@ -298,7 +298,16 @@
     <div id="support">
       <a href="/assets/images/qr-code.png" target="_blank">Support Now</a>
     </div>
-    <div id="contact"></div>
+    <div id="contact">
+      <form action="https://api.web3forms.com/submit" method="POST">
+        <input type="hidden" name="access_key" value="be8fc2f6-ed51-4192-a459-f7e8efdbfb0d">
+        <input type="text" name="name" placeholder="Name here" maxlength="50" required>
+        <input type="email" name="email" placeholder="Email here" required>
+        <textarea name="message" placeholder="Enter your message here" maxlength="250" required></textarea>
+        <input type="hidden" name="redirect" value="https://web3forms.com/success">
+        <button type="submit"><img src="/assets/icons/paper-plane-solid.svg" alt="send">Send</button>
+      </form>
+    </div>
   </main>
   <footer>
     <div id="social-icons">
