@@ -143,6 +143,9 @@
   #contact > form {
     width: 80%;
   }
+  #services p {
+    font-size: larger;
+  }
 }
 @media only screen and (max-width: 450px) {
   header {
@@ -180,6 +183,9 @@
     padding: 0.75rem;
   }
   .project {
+    width: 90%;
+  }
+  .service {
     width: 90%;
   }
 }
