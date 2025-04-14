@@ -1,0 +1,27 @@
+name: Optimize Images
+on:
+  push:
+    branches: [main]
+    paths:
+      - '**/*.png'
+      - '**/*.jpg'
+      - '**/*.jpeg'
+      - '**/*.webp'
+
+jobs:
+  optimize:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: calibreapp/image-actions@v1
+        with:
+          compress: true
+          jpeg-quality: 80
+          png-quality: 80
+      - name: Commit changes
+        run: |
+          git config --global user.name 'github-actions'
+          git config --global user.email 'github-actions@github.com'
+          git add .
+          git commit -m "Optimize images" || echo "No changes to commit"
+          git push
