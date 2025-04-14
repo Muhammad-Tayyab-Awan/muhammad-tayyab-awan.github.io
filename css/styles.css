@@ -454,7 +454,7 @@ main {
   width: 100%;
 }
 #contact > form {
-  background: url("/assets/images/contactus.png") no-repeat center center;
+  background: url("/assets/images/contact-us.png") no-repeat center center;
   height: auto;
   width: 50%;
   margin: 1rem auto;
