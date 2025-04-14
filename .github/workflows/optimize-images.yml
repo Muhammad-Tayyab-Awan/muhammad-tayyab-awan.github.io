@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - uses: calibreapp/image-actions@v1
+      - uses: calibreapp/image-actions@main
         with:
           compress: true
           jpeg-quality: 80
