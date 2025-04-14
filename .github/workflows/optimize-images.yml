@@ -14,7 +14,8 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - uses: calibreapp/image-actions@main
-        with:
+        with: 
+          githubToken: ${{ secrets.GITHUB_TOKEN }}
           compress: true
           jpeg-quality: 80
           png-quality: 80
