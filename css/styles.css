@@ -359,7 +359,7 @@ main {
   text-align: end;
 }
 .resume {
-  background: url("/assets/images/resume.jpg") no-repeat center center;
+  background: url("/assets/images/resume.webp") no-repeat center center;
   background-size: cover;
   width: 50%;
   margin: 1rem auto;
@@ -445,7 +445,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: url("/assets/images/support.jpg") no-repeat top center;
+  background: url("/assets/images/support.webp") no-repeat top center;
   background-size: cover;
   height: 14rem;
   border-radius: 0.5rem;
@@ -454,7 +454,7 @@ main {
   width: 100%;
 }
 #contact > form {
-  background: url("/assets/images/contact-us.png") no-repeat center center;
+  background: url("/assets/images/contact-us.webp") no-repeat center center;
   height: auto;
   width: 50%;
   margin: 1rem auto;
