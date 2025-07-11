@@ -20,6 +20,8 @@ checkScroll();
 const shareBtns = document.querySelectorAll("img[alt='share']");
 const openModal = document.querySelector(".modal");
 const closeModal = document.querySelector(".closeModal");
+const palestineModal = document.querySelector(".palestine");
+const closeBanner = document.querySelector(".closeBanner");
 const copyUrlBtn = document.querySelector(".copy > span");
 shareBtns.forEach((btn) => {
   btn.addEventListener("click", (e) => {
@@ -31,6 +33,10 @@ shareBtns.forEach((btn) => {
 
 closeModal.addEventListener("click", () => {
   openModal.classList.remove("flex");
+});
+
+closeBanner.addEventListener("click", () => {
+  palestineModal.classList.add("hidden");
 });
 
 copyUrlBtn.addEventListener("click", (e) => {

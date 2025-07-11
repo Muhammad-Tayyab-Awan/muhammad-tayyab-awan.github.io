@@ -575,3 +575,34 @@ footer {
 #social-icons img {
   height: 1rem;
 }
+.palestine {
+  position: fixed;
+  height: 100vh;
+  width: 100%;
+  z-index: 50;
+  cursor: not-allowed;
+}
+.palestine > .img {
+  border: 4px solid;
+  border-color: green white black red;
+  background: url("/assets/images/From river to sea palestine will be free.webp")
+    no-repeat center center;
+  background-size: contain;
+  width: 50%;
+  height: 70%;
+  display: block;
+  margin-top: 4rem;
+  margin-inline: auto;
+  border-radius: 1rem;
+  position: relative;
+}
+.img > .closeBanner {
+  position: absolute;
+  height: 1.5rem;
+  top: 1rem;
+  right: 1rem;
+  cursor: url("/assets/icons/cursor-hand-line.svg"), auto;
+}
+.hidden {
+  display: none;
+}
